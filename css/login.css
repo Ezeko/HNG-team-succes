@@ -121,3 +121,16 @@ h3 a {
     }
 
 }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #C1C8E4;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #C1C8E4;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #C1C8E4;
+}

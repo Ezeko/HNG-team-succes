@@ -8,16 +8,20 @@
     <link rel="stylesheet" href="./css/login.css">
 </head>
 <body>
+    <div class="content">
     <section>
-    <h1>Hello, </h1><h1>Welcome Back</h1>
+    <header><h1>Hello, </h1><h1>Welcome Back</h1></header> 
     <form action="">
         <div class="input-container"><input type="text" name="username" placeholder="username or email"></div>
         <div class="input-container"><input type="password" placeholder="password"></div>
         <div class="checkbox-container">
-            <input type="checkbox" name="check" id="check"> <label for="check">Remember me</label>
-            <a href="">
+                <div><label class="checkbox-label">
+                        <input type="checkbox" name="check" id="check">
+                        <span class="checkbox-custom check"></span>
+                    </label><label for="check"> Remember me</label></div> 
+            <div><a href="">
                 forgot password?
-            </a>
+            </a></div>
         </div>
         <button>Login</button>
     </form>
@@ -26,6 +30,6 @@
     <figure>
         <img src="https://res.cloudinary.com/dpkreativ/image/upload/v1568720516/Team%20Success%20First%20Task/495078-PHE68U-271_b8udzh.svg" alt="Welcome Back">
     </figure>
-
+    </div>
 </body>
 </html>
